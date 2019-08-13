@@ -1,0 +1,322 @@
+.Home {
+    display: flex;
+    height: 100vh;
+}
+
+.Home .contentWrapper {
+    display: flex;
+    flex: 1;
+}
+
+.Home .background {
+    flex: 2;
+    height: 100%;
+}
+
+.Home .background img {
+    width: 85%;
+}
+
+.Home .container {
+    padding-right: 10%;
+    height: 100%;
+    position: relative;
+}
+
+.Home .textContent {
+    text-align: right;
+}
+
+.Home .textContent>h1 {
+    text-align: end;
+    font-size: 7vh;
+    font-weight: 900;
+    width: 100%;
+    padding-top: 15%;
+    /* padding-bottom: 25%; */
+    color: #19286E;
+    font-family: 'RobotoRegular', monospace;
+    font-size-adjust: auto;
+}
+
+.Home .textContent p {
+    display: flex;
+    text-align: end;
+    font-size: 2.5vh;
+    color: #19286E;
+    font-size-adjust: auto;
+    font-family: 'RobotoRegular', monospace;
+}
+
+.Home .textContent h2 {
+    text-align: end;
+    font-size: 3vh;
+    font-weight: 900;
+    width: 100%;
+    color: #19286E;
+    font-size-adjust: auto;
+    font-family: 'RobotoRegular', monospace;
+}
+
+.Home .imageLogo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10%;
+    max-height: 30vh;
+}
+
+.Home .imageContainer {
+    position: relative;
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.Home .buttonStart {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+.Home .buttonCredits {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+.Home .imageContainer img {
+    padding-bottom: 5%;
+}
+
+.Home .buttonStart img {
+    width: 15vw;
+    display: flex;
+    min-width: 100px;
+    justify-content: flex-end;
+}
+
+.Home .buttonCredits img {
+    width: 12vw;
+    min-width: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Home .buttonCredits:active {
+    transform: translate(1px, 1px);
+    transition: 0.5ms
+}
+
+.Home .buttonStart:active,
+.buttonCredits:active {
+    -webkit-animation: bump 0.35s linear;
+    /*for Google*/
+    -moz-animation: bump 0.35s linear;
+    /*for Firefox*/
+    cursor: pointer;
+}
+
+@-webkit-keyframes bump {
+
+    /*for Google*/
+    0% {
+        -webkit-transform: scale(1, 1);
+        opacity: 0.8;
+    }
+
+    50% {
+        -webkit-transform: scale(0.9, 0.9);
+        opacity: 0.9;
+    }
+
+    100% {
+        -webkit-transform: scale(1, 1);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes bump {
+
+    /*for Firefox*/
+    0% {
+        -moz-transform: scale(1.2, 1.2);
+        opacity: 0.8;
+    }
+
+    50% {
+        -moz-transform: scale(0.9, 0.9);
+        opacity: 0.9;
+    }
+
+    100% {
+        -moz-transform: scale(1, 1);
+        opacity: 1;
+    }
+}
+
+.Home .overlayBox {
+    opacity: 0;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+    transition: opacity .3s ease;
+    overflow-y: auto;
+}
+
+.Home .overlayBox.visible {
+    opacity: 1;
+    display: flex;
+}
+
+.Home .overlayBox .close {
+    display: block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 100%;
+    background-color: #707070;
+    text-align: center;
+    line-height: 100%;
+}
+
+.Home .overlayBox .close::after,
+.Home .overlayBox .close::before {
+    content: "";
+    display: inline-block;
+    height: 22px;
+    width: 2px;
+    background-color: white;
+}
+
+.Home .overlayBox .close::after {
+    transform: rotate(45deg);
+}
+
+.Home .overlayBox .close::before {
+    transform: rotate(135deg);
+}
+
+.Home .overlayText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #fff;
+    padding: 15px;
+    overflow: auto;
+    max-height: 80vh;
+    min-width: 90vw;
+}
+
+.Home .overlayText h1 {
+    text-align: center;
+    font-weight: 900;
+    color: #19286E;
+}
+
+.Home .overlayText b {
+    font-weight: 900;
+    color: #19286E;
+}
+
+.Home .overlayText p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #707070
+}
+
+
+@media only screen and (max-width: 900px) and (max-height: 600px) and (orientation: landscape) { 
+
+    .Home .container h1, p, h2 {
+     font-size: 0.7em!important;
+ }
+    
+}
+
+@media only screen and (orientation: portrait) and (max-width: 899px) {
+
+    .Home .background {
+        display: none;
+        height: 100%;
+    }
+
+    .Home .imageLogo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 10%;
+        max-height: 10vh;
+    }
+
+    .Home .overlayText h1 {
+        text-align: center;
+        font-weight: 900;
+        color: #19286E;
+        font-size: 1.5em;
+    }
+    
+    .Home .overlayText b {
+        font-weight: 900;
+        color: #19286E;
+        font-size: 1em;
+    }
+    
+    .Home .overlayText p {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 900;
+        color: #707070;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 700px) {
+
+    .Home .imageLogo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 10%;
+        max-height: 10vh;
+    }
+
+    .Home .imageLogo img {
+        min-height: 20px;
+    }
+
+    .Home .textContent p {
+        font-size: 1em;
+    }
+
+    .Home .textContent h1 {
+        font-size: 2em;
+    }
+
+    .Home .textContent h2 {
+        font-size: 1.5em;
+    }
+
+}

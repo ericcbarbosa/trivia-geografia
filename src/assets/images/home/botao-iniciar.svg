@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="291.801" height="108.032" viewBox="0 0 291.801 108.032">
+  <g id="Agrupar_68" data-name="Agrupar 68" transform="translate(-1544.4 -808.484)">
+    <g id="Agrupar_66" data-name="Agrupar 66" transform="translate(-43.6 -37.516)">
+      <rect id="Retângulo_31" data-name="Retângulo 31" width="291.801" height="108.032" transform="translate(1588 846)" fill="#19286e"/>
+      <g id="Agrupar_63" data-name="Agrupar 63" transform="translate(1619.841 867.606)">
+        <g id="Agrupar_47" data-name="Agrupar 47" transform="translate(69.267)">
+          <text id="Iniciar" transform="translate(0 51)" fill="#fff" font-size="55" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Iniciar</tspan></text>
+        </g>
+        <g id="play-button" transform="translate(0 7.96)">
+          <path id="Caminho_86" data-name="Caminho 86" d="M25.536,2.554A22.983,22.983,0,1,1,2.554,25.536,23.008,23.008,0,0,1,25.536,2.554m0-2.554A25.536,25.536,0,1,0,51.072,25.536,25.537,25.537,0,0,0,25.536,0Z" fill="#fff"/>
+          <path id="Caminho_87" data-name="Caminho 87" d="M164.55,122.6Zm-1.806-1.878-12.074,7.9c-.783.513-1.424.167-1.424-.769V111.672c0-.936.64-1.281,1.422-.766l12.079,7.949A1.037,1.037,0,0,1,162.744,120.723Z" transform="translate(-128.817 -94.23)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

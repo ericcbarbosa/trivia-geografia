@@ -1,0 +1,19 @@
+.Images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.Images .thumb {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 30px;
+  border: 1px solid red;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.Images .thumb + .thumb {
+  margin-left: 30px;
+}

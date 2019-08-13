@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    font-family: 'QuicksandRegular', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p,
+li,
+ul {
+    color: #FFF;
+    font-size: 1.5em;
+}
+
+li {
+    line-height: 2em;
+}
+
+button {
+    color: #FFF;
+    font-size: 2em;
+}
+
+
+.perguntas__wrapper-perguntas {
+    position: absolute;
+    z-index: 4;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/images/board/hud-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: opacity .3s ease-in;
+}
+
+.perguntas__wrapper-perguntas.hidden {
+    opacity: 0;
+    z-index: -1;
+}
+
+.perguntas__nav {
+    display: flex;
+    max-height: 100%;
+    width: 60%;
+    margin: auto;
+}
+
+.perguntas__nav__header img {
+    object-fit: contain;
+    font-size: 24px;
+    height: 100%;
+    padding-top: 20px;
+    align-content: center;
+    margin: auto;
+}
+
+.perguntas__main {
+    display: flex;
+    height: 100vh;
+    width: 60%;
+    margin: auto;
+}
+
+.perguntas__images-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.perguntas__images-container img {
+    object-fit: contain;
+}
+
+.perguntas__image img {
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+    /* min-width: 50%; */
+    margin-right: 3em;
+}
+
+.perguntas__section__body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-height: 100%;
+    justify-content: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.section__body img {
+    object-fit: contain;
+    max-width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+.perguntas__opcoes {
+    z-index: 1;
+    padding-left: 5px;
+    position: relative;
+}
+
+.perguntas__bar {
+    position: absolute;
+    order: 0;
+    top: 1px;
+    width: 100%;
+    left: 5px;
+}
+
+.perguntas__bar img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.perguntas__section__timer,
+.perguntas__section__tips,
+.perguntas__section__answer {
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.perguntas__section__timer {
+    position: relative;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.perguntas__section__timer>img {
+    object-fit: contain;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.perguntas__section__tips>img {
+    object-fit: contain;
+    padding: 10px 0 10px 10px;
+    width: 20%;
+}
+
+.perguntas__footer-hud {
+    display: none;
+    padding: 15px;
+    background-color: #633FFC;
+    transform: translateY(100%);
+    transition: transform .4s cubic-bezier(0.82, 0.14, 0.23, 1.13);
+}
+
+.perguntas__wrapper-perguntas.visible .perguntas__footer-hud {
+    transform: translateY(0%);
+    display: flex;
+}
+
+.perguntas__btn__answer {
+    display: inline-block;
+    border: none;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #63F3DA, #42C781);
+    border-radius: 90px;
+    padding: 15px;
+    min-width: 100%;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.perguntas__btn__answer.disabled {
+    cursor: not-allowed;
+    opacity: 0.9;
+    background-image: linear-gradient(to right, #e4e4e4, #a5a5a5);
+}
+
+.perguntas__nav__header {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all ease .6s;
+}
+
+.perguntas__nav__header.in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.perguntas__nav__header h1 {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    h2,
+    h3,
+    p,
+    li,
+    ul {
+        font-size: 1em;
+    }
+
+    .perguntas__main {
+        width: 75%;
+    }
+
+    .perguntas__nav {
+        width: 75%;
+    }
+
+    .perguntas__nav p {
+        font-size: 0.8em;
+    }
+    .perguntas__nav__header h1 {
+        color: #fff;
+        font-size: 1.5em;
+    }
+    
+}
+
+@media (max-width: 450px), (max-height: 450px) {
+    .perguntas__btn__answer {
+        font-size: 16px;
+        max-height: 50px;
+        padding: 15px;
+        line-height: 0.8;
+    }
+}
+
+@media only screen and (max-height: 600px) and (orientation: landscape) {
+    h2,
+    h3,
+    p,
+    li,
+    ul {
+        font-size: 0.7em;
+    }
+
+    .perguntas__nav__header h1 {
+        color: #fff;
+        font-size: 1em;
+    }
+}

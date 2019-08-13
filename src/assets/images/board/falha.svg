@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="305.811" height="305.649" viewBox="0 0 305.811 305.649">
+  <g id="failure" transform="translate(0 -0.135)">
+    <g id="Agrupar_110" data-name="Agrupar 110" transform="translate(0 0.135)">
+      <g id="Agrupar_109" data-name="Agrupar 109">
+        <path id="Caminho_393" data-name="Caminho 393" d="M284.53.135H21.281A21.305,21.305,0,0,0,0,21.416V213.965a21.305,21.305,0,0,0,21.281,21.281H125.223V254.4H95.757a25.692,25.692,0,0,0,0,51.384H209.372a25.692,25.692,0,0,0,0-51.384H180.588V235.246H284.529a21.305,21.305,0,0,0,21.281-21.281V21.416A21.3,21.3,0,0,0,284.53.135ZM209.373,272.322a7.77,7.77,0,1,1,0,15.54H95.758a7.77,7.77,0,1,1,0-15.54ZM143.145,254.4V235.246h19.522V254.4ZM284.53,217.325H21.281a3.363,3.363,0,0,1-3.36-3.36V21.416a3.362,3.362,0,0,1,3.36-3.359H284.53a3.363,3.363,0,0,1,3.36,3.359V213.965h0A3.363,3.363,0,0,1,284.53,217.325Z" transform="translate(0 -0.135)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Agrupar_112" data-name="Agrupar 112" transform="translate(47.286 35.945)">
+      <g id="Agrupar_111" data-name="Agrupar 111">
+        <path id="Caminho_394" data-name="Caminho 394" d="M115.023,83.5l8.113-8.113a8.961,8.961,0,1,0-12.671-12.673l-8.113,8.113-7.887-7.887A8.961,8.961,0,0,0,81.792,75.612L89.679,83.5l-7.887,7.887a8.961,8.961,0,1,0,12.672,12.673l7.887-7.887,8.113,8.113a8.961,8.961,0,0,0,12.672-12.673Z" transform="translate(-79.168 -60.088)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Agrupar_114" data-name="Agrupar 114" transform="translate(47.287 92.697)">
+      <g id="Agrupar_113" data-name="Agrupar 113">
+        <path id="Caminho_395" data-name="Caminho 395" d="M115.089,178.451l8.047-8.047a8.961,8.961,0,1,0-12.671-12.674l-8.047,8.047-7.952-7.952A8.961,8.961,0,0,0,81.793,170.5l7.952,7.953L81.793,186.4a8.961,8.961,0,1,0,12.672,12.673l7.952-7.952,8.047,8.047A8.961,8.961,0,1,0,123.137,186.5Z" transform="translate(-79.169 -155.105)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Agrupar_116" data-name="Agrupar 116" transform="translate(47.287 150.834)">
+      <g id="Agrupar_115" data-name="Agrupar 115">
+        <path id="Caminho_396" data-name="Caminho 396" d="M115.047,275.827l8.09-8.09a8.961,8.961,0,1,0-12.672-12.673l-8.09,8.09-7.909-7.909a8.961,8.961,0,1,0-12.673,12.673l7.909,7.909-7.909,7.909a8.961,8.961,0,1,0,12.672,12.673l7.909-7.908,8.091,8.091a8.961,8.961,0,0,0,12.672-12.673Z" transform="translate(-79.169 -252.44)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Agrupar_118" data-name="Agrupar 118" transform="translate(124.47 50.281)">
+      <g id="Agrupar_117" data-name="Agrupar 117">
+        <path id="Caminho_397" data-name="Caminho 397" d="M343.328,84.091H217.353a8.961,8.961,0,0,0,0,17.922H343.329a8.961,8.961,0,1,0,0-17.922Z" transform="translate(-208.392 -84.091)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Agrupar_120" data-name="Agrupar 120" transform="translate(124.47 107.033)">
+      <g id="Agrupar_119" data-name="Agrupar 119">
+        <path id="Caminho_398" data-name="Caminho 398" d="M343.328,179.107H217.353a8.961,8.961,0,1,0,0,17.922H343.329a8.961,8.961,0,1,0,0-17.922Z" transform="translate(-208.392 -179.107)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Agrupar_122" data-name="Agrupar 122" transform="translate(124.47 165.169)">
+      <g id="Agrupar_121" data-name="Agrupar 121">
+        <path id="Caminho_399" data-name="Caminho 399" d="M343.328,276.44H217.353a8.961,8.961,0,1,0,0,17.922H343.329a8.961,8.961,0,1,0,0-17.922Z" transform="translate(-208.392 -276.44)" fill="#707070"/>
+      </g>
+    </g>
+  </g>
+</svg>

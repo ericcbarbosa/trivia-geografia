@@ -1,0 +1,50 @@
+.Timer {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.text {
+    color: #515262;
+    font-size: 25px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    font-family: 'QuicksandBold', sans-serif;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    max-height: 97px;
+    max-width: 95px;
+    margin: 0;
+}
+
+@media (max-width: 600px), (max-height: 600px) {
+    .image {
+        max-width: 70px;
+    }
+    .text {
+        font-size: 20px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 450px), (max-height: 450px) {
+    .image {
+        max-width: 50px;
+        margin: auto;
+    }
+    .text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
